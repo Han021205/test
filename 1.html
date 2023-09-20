@@ -4,6 +4,9 @@
     <title>WEB1-HTML</title>
     <meta charset="wtf-8">
     <style>
+        body{
+            margin: 0;
+        }
         a {
             color: black;
             text-decoration: none;
@@ -11,6 +14,9 @@
         h1 {
             font-size: 45px;
             text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 0px;
+            padding: 20px;
         }
         .saw {
             color: gray;
@@ -18,13 +24,19 @@
         #active {
             color: red;
         }
+        ol{
+            border-right: 1px solid gray;
+            width: 100px;
+            margin: 0px;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
-    <p>
+    <!-- <p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jSJM9iOiQ1g" frameborder="0" allowfullscreen></iframe>
-    </p>
+    </p> -->
     <ol>
         <li><a href="1.html" class="saw" id="active">HTML</a></li>
         <li><a href="2.html" class="saw">CSS</a></li>
@@ -43,7 +55,7 @@
     -->
     <h2>HTML</h2>
     <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html5 speicification">Hypertext Markup Language</a> (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-    <img src="coding.jpg" width="100%">  
+    <!-- <img src="coding.jpg" width="100%">   -->
     <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. </p>
 </body>
 </html>
